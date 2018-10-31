@@ -1,11 +1,30 @@
 html {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
   color: #fff;
+}
+
+svg {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  border: 1px solid;
+  border: 1px solid #fff;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #ff5e3a;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section > div {
+    border-bottom: 1px solid;
+  }
+
 }
